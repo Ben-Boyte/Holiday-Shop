@@ -72,13 +72,13 @@ db.once('open', async () => {
       quantity: 30
     },
     {
-      name: 'Tablet',
+      name: "Women's Top",
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+        'A gift for that special someone.',
+      image: 'Special.png',
+      price: 39.99,
+      quantity: 10
     },
     {
       name: 'Tales at Bedtime',
