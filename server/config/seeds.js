@@ -18,13 +18,13 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Earrings',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'Get mom a nice pair of earrings this holiday season.',
+      image: 'earrings.png',
       category: categories[0]._id,
-      price: 2.99,
-      quantity: 500
+      price: 25.99,
+      quantity: 25
     },
     {
       name: 'Canned Coffee',
