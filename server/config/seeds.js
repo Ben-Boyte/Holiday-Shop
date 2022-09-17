@@ -45,13 +45,13 @@ db.once('open', async () => {
       quantity: 15
     },
     {
-      name: 'Handmade Soap',
+      name: 'Sweater',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
-      quantity: 50
+        'A punny Christmas sweater for Dad',
+      image: 'sweater.png',
+      price: 23.99,
+      quantity: 40
     },
     {
       name: 'Set of Wooden Spoons',
