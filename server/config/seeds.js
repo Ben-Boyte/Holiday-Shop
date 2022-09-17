@@ -54,13 +54,13 @@ db.once('open', async () => {
       quantity: 40
     },
     {
-      name: 'Set of Wooden Spoons',
-      category: categories[1]._id,
+      name: 'Tree Necklace',
+      category: categories[0]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
-      quantity: 100
+        'Mom will love wearing this Christmas Tree Necklace',
+      image: 'necklace.png',
+      price: 19.99,
+      quantity: 25
     },
     {
       name: 'Camera',
@@ -116,13 +116,13 @@ db.once('open', async () => {
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
+      name: 'Engagement Ring',
+      category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'Really Wow her on Christmas morning with the most elite gift we have to offer. This engagement ring is made of 18 carat gold with 6 and 10 carat diamonds.',
+      image: 'ring.png',
+      price: 92899.99,
+      quantity: 1
     }
   ]);
 
