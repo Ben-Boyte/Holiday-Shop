@@ -27,22 +27,22 @@ db.once('open', async () => {
       quantity: 25
     },
     {
-      name: 'Canned Coffee',
+      name: 'Coffee Mug',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
-      category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
+        'Have a Meowy Christmas with this coffee mug perfect for any animal lover!',
+      image: 'coffee.png',
+      category: categories[3]._id,
+      price: 14.99,
+      quantity: 50
     },
     {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
+      name: 'Festive Dog Collar',
+      category: categories[4]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'Even Fido can get in on the Holiday Festivities with this one of a kind collar that will be sure to turn some heads and wag some tails!',
+      image: 'collar.png',
+      price: 10.99,
+      quantity: 15
     },
     {
       name: 'Handmade Soap',
@@ -72,10 +72,10 @@ db.once('open', async () => {
       quantity: 30
     },
     {
-      name: "Women's Top",
+      name: "Woman's Top",
       category: categories[2]._id,
       description:
-        'A gift for that special someone.',
+        'The perfect gift... for that special someone.',
       image: 'Special.png',
       price: 39.99,
       quantity: 10
