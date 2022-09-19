@@ -14,6 +14,7 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
+import Hero from './components/Hero'; 
 import { StoreProvider } from './utils/GlobalState';
 import OrderHistory from './pages/OrderHistory';
 
@@ -43,6 +44,7 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
+            <Hero />
             <Routes>
               <Route 
                 path="/" 
