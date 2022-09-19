@@ -4,7 +4,12 @@ import WrappingVideo from '../../assets/wrapping-video.mp4';
 function Hero() {
     return (
         <div className="video">
-            <video controls autostart autoPlay src={WrappingVideo} type="wrapping-video/mp4" />
+            <div className='overlay'></div>
+            <video autostart autoPlay loop muted src={WrappingVideo} type="wrapping-video/mp4" />
+            <div className="hero-text">
+                <h2>Who Are You Shopping For?</h2>
+                <p>Let us be your elves this season with curated gifts to fulfill every Christmas wish</p>
+            </div>
         </div>
       );
 }
