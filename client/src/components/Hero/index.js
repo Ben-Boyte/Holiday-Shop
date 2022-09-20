@@ -9,6 +9,7 @@ function Hero() {
             <div className="hero-text">
                 <h2>Who Are You Shopping For?</h2>
                 <p>Let us be your elves this season with curated gifts to fulfill every Christmas wish</p>
+                <button type="submit" className="hero-btn">Start Shopping Now!</button>
             </div>
         </div>
       );
