@@ -64,12 +64,12 @@ db.once('open', async () => {
     },
     {
       name: 'Camera',
-      category: categories[2]._id,
+      category: categories[1]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        'A perfect tech gift for dad!',
       image: 'camera.jpg',
-      price: 399.99,
-      quantity: 30
+      price: 299.99,
+      quantity: 10
     },
     {
       name: "Woman's Top",
@@ -81,36 +81,36 @@ db.once('open', async () => {
       quantity: 10
     },
     {
-      name: 'Tales at Bedtime',
+      name: 'Gingerbread House Kit',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
+        'Build a gingerbread house with your friend!',
+      image: 'gingerbread.png',
+      price: 12.99,
+      quantity: 60
+    },
+    {
+      name: 'Christmas Cat Toys',
+      category: categories[4]._id,
+      description: 'Your cat will love getting in the Holiday spirit with this set of Christmas themed toys!',
+      image: 'cat.png',
+      price: 4.99,
       quantity: 100
     },
     {
-      name: 'Spinning Top',
-      category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
-    },
-    {
-      name: 'Set of Plastic Horses',
+      name: 'Water Bowl',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
+        'A holiday themed water bowl for your furry friends',
+      image: 'bowl.png',
+      price: 9.99,
+      quantity: 75
     },
     {
       name: 'Teddy Bear',
-      category: categories[4]._id,
+      category: categories[2]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'Show your significant other how much they mean to you by giving them this adorable teddy bear that they are sure to love!',
       image: 'teddy-bear.jpg',
       price: 7.99,
       quantity: 100
