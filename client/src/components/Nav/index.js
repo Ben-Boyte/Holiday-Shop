@@ -1,6 +1,9 @@
+// import React from 'react';
 import React from 'react';
 import Auth from '../../utils/auth';
 import { Link } from 'react-router-dom';
+import CategoryMenu from '../CategoryMenu';
+
 
 function Nav() {
   function showNavigation() {
@@ -43,10 +46,15 @@ function Nav() {
           A Curated Christmas
         </Link>
       </h1>
+      <div className='flex-row'>
+        {CategoryMenu()}
+      </div>
 
       <nav>{showNavigation()}</nav>
     </header>
   );
 }
+
+
 
 export default Nav;
