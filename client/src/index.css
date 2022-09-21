@@ -125,41 +125,37 @@ span[role="img"] {
   cursor: default;
 }
 
-/* Hero Section  */
+/* Hero Section Start */
 
-video {
-  width: 100%; 
-  height: 80vh; 
-  object-fit: cover;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 80vh;
-  background-color:rgba(0, 0, 0, .5);
-}
-
-.hero-text {
+.hero-title {
   position: absolute;
   width: 100%;
   height: 100%; 
-  top: 0; 
+  top: 75px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+}
+
+.hero-p {
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  top: 150px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.hero-btn {
-  background: var(--button);
-  color: var(--tertiary); 
-  width: 245px; 
-  height: 60px; 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-  font-size: 23px;
-  font-weight: bold;
-  box-shadow: 4px 4px #e6d16aae;
+.video-comp {
+  width: 100%; 
+  height: 800px; 
+  background-image: url("https://media.giphy.com/media/jOyNhEymgAbii0TLQC/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* End Hero Section */
