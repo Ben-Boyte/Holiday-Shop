@@ -48,7 +48,7 @@ function App() {
             <Routes>
               <Route 
                 path="/" 
-                element={<Home />} 
+                element={<Home /> } 
               />
               <Route 
                 path="/login" 
@@ -71,6 +71,7 @@ function App() {
                 element={<NoMatch />} 
               />
             </Routes>
+            
           </StoreProvider>
         </div>
       </Router>
