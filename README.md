@@ -21,4 +21,4 @@ This is not a site for the casual shopper. This is a place for finding special g
 ## Contact us
   - GitHub:[Ben Boyte] (https://github.com/Ben-Boyte)
            [Chad Smith] (https://github.com/Chad-A-Smith)
-           [corimest](https://github.com/corimest)
+           [Corinne Mestemacher](https://github.com/corimest)
